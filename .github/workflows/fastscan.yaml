@@ -22,5 +22,6 @@ jobs:
           # The git folder name is mapped to the project name
           docker run -v $(pwd):/fastScan/sourceCode castimaging/fast-scan-java-cli /fastScan/sourceCode -n $git_folder
           
+          
 
           
